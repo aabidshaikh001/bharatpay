@@ -13,7 +13,7 @@ export default function RootLayout({
         <title>BharatPay - Leading B2B Digital Banking Services in India | Simplify Business Transactions</title>
         <meta name="description" content="Experience seamless B2B digital banking with BharatPay. Simplify business transactions, payments, and account management with our secure and efficient digital banking solutions. Grow your business with BharatPay today!" />
       </head>
-      <body      >
+      <body>
       
       <Header/>
       {children}
