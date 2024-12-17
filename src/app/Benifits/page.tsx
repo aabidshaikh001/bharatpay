@@ -10,7 +10,7 @@ const AccountBenefits = () => {
           
           <h2 className="text-xl font-bold mb-6 text-blue-900">What is BharatPay Investment Account?</h2>
           <p className="text-lg text-gray-800 mb-6">
-            BharatPay Investment Account is designed to address merchants' needs by offering a smarter alternative to traditional wallets. Instead of storing unused funds in regular wallets without benefits, merchants can now earn monthly interest on their average balance, making their money work for them.
+            BharatPay Investment Account is designed to address merchants&apos; needs by offering a smarter alternative to traditional wallets. Instead of storing unused funds in regular wallets without benefits, merchants can now earn monthly interest on their average balance, making their money work for them.
           </p>
 
           <h2 className="text-2xl font-bold mb-6 text-blue-900">Key Features</h2>
@@ -67,7 +67,7 @@ const AccountBenefits = () => {
           </ul>
 
           <p className="text-lg text-gray-950 text-bold">
-            With the BharatPay Investment Account, merchants not only secure their financial future but also actively participate in India's economic growth by supporting reliable investment schemes.
+            With the BharatPay Investment Account, merchants not only secure their financial future but also actively participate in India&apos;s economic growth by supporting reliable investment schemes.
           </p>
         </div>
       </div>

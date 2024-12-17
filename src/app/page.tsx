@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import { Pagination, Navigation,Autoplay  } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { IconBrandGooglePlay } from '@tabler/icons-react';
+import Image from 'next/image';
 
 interface FAQ {
   question: string;
@@ -84,10 +85,13 @@ export default function Home(): JSX.Element {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img
+              <Image
                 src="/file.png"
                 alt="Hero"
                 className=""
+                height="1500"
+                width="400"
+                priority
               />
             </div>
           </div>
@@ -114,10 +118,13 @@ intermediaries.
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img
+              <Image
                 src="/fileo.png"
                 alt="Payment Solutions"
                 className=""
+                height="800"
+                width="400"
+                priority
               />
             </div>
           </div>
@@ -146,10 +153,13 @@ market knowledge.
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img
+              <Image
                 src="/hero2.png"
                 alt="Trusted Network"
                 className="rounded-md sm:pt-28"
+                height="800"
+                width="350"
+                priority
               />
             </div>
           </div>
@@ -162,10 +172,13 @@ market knowledge.
   </div>
   <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:space-x-16">
     <div className="md:w-1/2 flex justify-center md:justify-start">
-      <img
+      <Image
         src="/csc.png" // Replace with your image path
         alt="Common Service Centres"
         className="w-full max-w-lg rounded-md"
+        height="1000"
+                width="500"
+                priority
       />
     </div>
     <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
@@ -201,7 +214,7 @@ market knowledge.
 
     <h3 className="text-2xl font-semibold mb-4">Why it matters?</h3>
     <p className="text-lg text-gray-800 leading-relaxed">
-      This simplifies the process for small businesses, agents, and entrepreneurs, ensuring they can earn maximum commissions from essential digital services. It's a one-stop solution for digital services, empowering local communities.
+      This simplifies the process for small businesses, agents, and entrepreneurs, ensuring they can earn maximum commissions from essential digital services. It&apos;s a one-stop solution for digital services, empowering local communities.
     </p>
   </div>
 </section>
@@ -262,7 +275,7 @@ market knowledge.
   </div>
   <div className="md:w-full">
     <p className="text-lg font-semibold leading-relaxed mb-10">
-      BharatPay not only simplifies financial services but also ensures higher earnings, smarter savings, and wider opportunities. It's the ultimate solution for individuals and businesses looking to thrive in today’s digital age.
+      BharatPay not only simplifies financial services but also ensures higher earnings, smarter savings, and wider opportunities. It&apos;s the ultimate solution for individuals and businesses looking to thrive in today’s digital age.
     </p>
 
     <div className="text-center flex justify-center items-center md:text-left mb-10">

@@ -31,7 +31,7 @@ function Creditcard() {
               </h2>
               <ul className="list-disc ml-6 text-gray-700 space-y-4">
                 <li>
-                  <strong>Guaranteed Credit Card Approval:</strong> If you're
+                  <strong>Guaranteed Credit Card Approval:</strong> If you&apos;re
                   struggling to get a credit card or facing issues after
                   application, BharatPay provides a seamless way to apply for a
                   credit card directly through our platform. We guarantee your
@@ -59,10 +59,13 @@ function Creditcard() {
 
             {/* Right Image */}
             <div className="lg:w-1/3 flex justify-center">
-              <img
+              <Image
                 src="/card1.png"
                 alt="Credit Cards"
-                className="h-auto w-auto"
+                className=""
+                height="300"
+                width="300"
+                priority
               />
             </div>
           </div>
@@ -100,10 +103,12 @@ function Creditcard() {
 
               {/* Right Image */}
               <div className="lg:w-1/3 flex justify-center">
-                <img
+                <Image
                   src="/card2.png"
                   alt="Person Holding Credit Card"
-                  className="h-auto w-auto"
+                  height="300"
+                  width="400"
+                  priority
                 />
               </div>
             </div>
@@ -119,8 +124,8 @@ function Creditcard() {
             </p>
             <ol className="list-decimal ml-6 text-gray-700 space-y-4">
               <li>
-                <strong>Click on "Apply Now":</strong> Begin by clicking the
-                "Apply Now" button provided below to start your application
+                <strong>Click on &quot;Apply Now&quot;:</strong> Begin by clicking the
+                &quot;Apply Now&quot; button provided below to start your application
                 process.
               </li>
               <li>
@@ -280,10 +285,12 @@ function Creditcard() {
 
             {/* Right Image */}
             <div className="lg:w-1/3 flex justify-center">
-              <img
+              <Image
                 src="/card3.png"
                 alt="Credit Card Terminal"
-                className="h-auto w-auto"
+                height="500"
+                width="500"
+                priority
               />
             </div>
           </div>
@@ -365,10 +372,12 @@ function Creditcard() {
 
             {/* Right Image */}
             <div className="lg:w-1/3 flex justify-center">
-              <img
+              <Image
                 src="/card4.png"
                 alt="Get Started Illustration"
-                className="h-auto w-auto"
+                height="400"
+                width="400"
+                priority
               />
             </div>
           </div>

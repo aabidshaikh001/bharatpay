@@ -16,7 +16,7 @@ const Services = () => {
         <div className="bg-white shadow-md rounded p-6">
           <h1 className="text-3xl font-bold mb-6 text-blue-900">Complete BharatPay Services Overview</h1>
           <p className="text-lg text-gray-800 mb-6">
-            BharatPay empowers merchants and individuals across India by providing easy access to essential services while ensuring high commissions and a seamless process. Here's a detailed look at all the services BharatPay offers:
+            BharatPay empowers merchants and individuals across India by providing easy access to essential services while ensuring high commissions and a seamless process. Here&apos;s a detailed look at all the services BharatPay offers:
           </p>
 
           <div className="service mb-8">
@@ -89,7 +89,7 @@ const Services = () => {
               <li>Reliable Earnings: Each service offers unmatched benefits to help you grow your business with no hidden costs or risks.</li>
             </ul>
             <p className="text-gray-950 font-bold mt-4">
-              By choosing BharatPay, you not only gain access to the most competitive commissions but also support the vision of "Digital Bharat".
+              By choosing BharatPay, you not only gain access to the most competitive commissions but also support the vision of &quot;Digital Bharat&quot;.
             </p>
           </div>
         </div>
