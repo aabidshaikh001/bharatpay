@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect } from 'react';
 
-const GoogleTranslate: React.FC = () => {
+const GoogleTranslate = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       // Check if the script is already loaded
