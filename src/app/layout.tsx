@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Notification from "./components/Notification";
 export const metadata: Metadata = {
   title: 'BharatPay - Leading B2B Digital Banking Services in India | Simplify Business Transactions',
   description: 'Experience seamless B2B digital banking with BharatPay. Simplify business transactions, payments, and account management with our secure and efficient digital banking solutions. Grow your business with BharatPay today!',
@@ -19,6 +20,7 @@ export default function RootLayout({
       
       <Header/>
       {children}
+      <Notification/>
         
           <Footer/>
        
