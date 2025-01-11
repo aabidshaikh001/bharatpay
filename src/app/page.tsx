@@ -81,7 +81,7 @@ export default function Home(): JSX.Element {
                 <a href='https://login.bharatpay.agency/login' className="bg-green-500 text-white px-5 py-3 rounded-md font-semibold hover:bg-green-600">
                   Login
                 </a>
-                <a href='https://in.tapir.co.in/uploads/logo/app-bharatpay-release-new.apk' className="bg-gray-900 text-white px-5 py-3 rounded-md font-semibold hover:bg-gray-950 flex items-center gap-1" download="https://in.tapir.co.in/uploads/logo/app-bharatpay-release-new.apk">
+                <a href='https://bit.ly/bharatpay_download_app' className="bg-gray-900 text-white px-5 py-3 rounded-md font-semibold hover:bg-gray-950 flex items-center gap-1" download="https://bit.ly/bharatpay_download_app">
                   Download Apk <IconBrandGooglePlay/>
                 </a>
               
